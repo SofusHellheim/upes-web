@@ -124,6 +124,16 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 1200px) {
+    #panelRight img {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .panel-body {
+        text-align: center;
+    }
+}
+
 .form-control {
     margin-left: auto;
     margin-right: auto;
@@ -220,9 +230,20 @@ hr.style:before {
   border-radius: 20px; 
 }
 
+#containerNews {
+    background-color: #456;
+}
+
+#myCarousel {
+    margin-top: 30px;
+}
 
 
-
+@media (max-width: 1200px) {
+    #img-panel {
+        display: inline;
+    }
+}
 
 /* Media sizes changes for navbar menu */
 
