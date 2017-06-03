@@ -124,6 +124,11 @@ body {
     margin-right: auto;
 }
 
+#panelRight {
+    margin-top: 20px;
+}
+
+
 @media (max-width: 1200px) {
     #panelRight img {
         display: inline-block;
@@ -244,6 +249,7 @@ hr.style:before {
         display: inline;
     }
 }
+
 
 /* Media sizes changes for navbar menu */
 
